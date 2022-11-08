@@ -185,7 +185,7 @@ def main():
     Map(SafestAndShortestAB("(-75.5778046, 6.2029412)","(-75.5762232, 6.266327)", graph), SafestAndShortestAB1("(-75.5778046, 6.2029412)","(-75.5762232, 6.266327)", graph), SafestAndShortestAB2("(-75.5778046, 6.2029412)","(-75.5762232, 6.266327)", graph))
     tiempoFinal = time.time()
     tiempoTotal = tiempoFinal - tiempoInicial
-    print("El algoritmo 1 se demoró: ", tiempoTotal ," segundos en encontrar el camino")
+    print("El algoritmo se demoró: ", tiempoTotal ," segundos en encontrar el camino")
         
 
 main()
